@@ -1,3 +1,8 @@
+.hs-form,
+.hs-form * {
+  font-family: inherit;
+}
+
 .hs-form label,
 .hs-form .hs-form-field > label,
 .hs-form .hs-richtext,
@@ -12,24 +17,33 @@
 }
 
 .hs-form input.hs-input,
-.hs-form input[type="text"].hs-input,
-.hs-form input[type="email"].hs-input,
-.hs-form input[type="tel"].hs-input,
-.hs-form input[type="number"].hs-input,
-.hs-form input[type="url"].hs-input,
-.hs-form textarea.hs-input,
-.hs-form select.hs-input {
-  padding: 14px 16px !important;
-  border-radius: 1rem !important;
+.hs-form select.hs-input,
+.hs-form textarea.hs-input {
+  background: #ffffff !important;
   color: #000000 !important;
-  background-color: #ffffff !important;
+  font-size: 16px !important;
+  line-height: 1.3 !important;
+  padding: 14px 16px !important;
+  min-height: 48px !important;
+  border-radius: 1rem !important;
+  box-sizing: border-box !important;
 }
 
 .hs-form textarea.hs-input {
-  min-height: 160px !important;
+  min-height: 180px !important;
 }
 
 .hs-form input.hs-input::placeholder,
 .hs-form textarea.hs-input::placeholder {
   color: rgba(0, 0, 0, 0.55) !important;
+  opacity: 1 !important;
+}
+
+.hs-form input.hs-input,
+.hs-form select.hs-input,
+.hs-form textarea.hs-input,
+.hs-form input.hs-input:focus,
+.hs-form select.hs-input:focus,
+.hs-form textarea.hs-input:focus {
+  color: #000000 !important;
 }
