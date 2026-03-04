@@ -1,16 +1,13 @@
 .hs-form label,
 .hs-form .hs-form-field > label,
-.hs-form .hs-richtext,
-.hs-form .legal-consent-container,
+.hs-form .hs-form-required,
 .hs-form .hs-error-msg,
 .hs-form .hs-error-msgs label,
-.hs-form .hs-form-required,
-.hs-form .hs-form-booleancheckbox-display span,
-.hs-form .hs-form-checkbox-display span,
-.hs-form .hs-form-radio-display span,
-.hs-form p,
-.hs-form span,
-.hs-form li,
-.hs-form legend {
+.hs-form .hs-main-font-element,
+.hs-form .hs-richtext,
+.hs-form .legal-consent-container,
+.hs-form .legal-consent-container p,
+.hs-form .legal-consent-container a,
+.hs-form .hs-dependent-field > label {
   color: #ffffff !important;
 }
