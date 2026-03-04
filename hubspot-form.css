@@ -1,9 +1,17 @@
-.hs-form, 
-.hs-form * {
-  color: #fff !important;
+.hs-form label,
+.hs-form .hs-form-field > label,
+.hs-form .hs-richtext,
+.hs-form .legal-consent-container,
+.hs-form .hs-error-msg,
+.hs-form .hs-error-msgs label,
+.hs-form .hs-form-required,
+.hs-form .hs-form-booleancheckbox-display span,
+.hs-form .hs-form-checkbox-display span,
+.hs-form .hs-form-radio-display span {
+  color: #ffffff !important;
 }
 
-.hs-form .hs-input::placeholder,
-.hs-form textarea.hs-input::placeholder {
+.hs-form input::placeholder,
+.hs-form textarea::placeholder {
   color: rgba(255, 255, 255, 0.75) !important;
 }
