@@ -7,33 +7,10 @@
 .hs-form .hs-form-required,
 .hs-form .hs-form-booleancheckbox-display span,
 .hs-form .hs-form-checkbox-display span,
-.hs-form .hs-form-radio-display span {
+.hs-form .hs-form-radio-display span,
+.hs-form p,
+.hs-form span,
+.hs-form li,
+.hs-form legend {
   color: #ffffff !important;
-}
-
-.hs-form .hs-input {
-  background-color: #ffffff !important;
-  color: #000000 !important;
-  -webkit-text-fill-color: #000000 !important;
-  caret-color: #000000 !important;
-  padding: 14px 16px !important;
-  min-height: 48px !important;
-  border-radius: 1rem !important;
-  box-sizing: border-box !important;
-}
-
-.hs-form textarea.hs-input {
-  min-height: 180px !important;
-}
-
-.hs-form .hs-input::placeholder {
-  color: rgba(0, 0, 0, 0.55) !important;
-  -webkit-text-fill-color: rgba(0, 0, 0, 0.55) !important;
-  opacity: 1 !important;
-}
-
-.hs-form .hs-input:focus {
-  color: #000000 !important;
-  -webkit-text-fill-color: #000000 !important;
-  caret-color: #000000 !important;
 }
