@@ -1,8 +1,3 @@
-.hs-form,
-.hs-form * {
-  font-family: inherit;
-}
-
 .hs-form label,
 .hs-form .hs-form-field > label,
 .hs-form .hs-richtext,
@@ -17,10 +12,17 @@
 }
 
 .hs-form input.hs-input,
-.hs-form select.hs-input,
-.hs-form textarea.hs-input {
-  background: #ffffff !important;
+.hs-form input[type="text"].hs-input,
+.hs-form input[type="email"].hs-input,
+.hs-form input[type="tel"].hs-input,
+.hs-form input[type="number"].hs-input,
+.hs-form input[type="url"].hs-input,
+.hs-form textarea.hs-input,
+.hs-form select.hs-input {
+  background-color: #ffffff !important;
   color: #000000 !important;
+  -webkit-text-fill-color: #000000 !important;
+  caret-color: #000000 !important;
   font-size: 16px !important;
   line-height: 1.3 !important;
   padding: 14px 16px !important;
@@ -36,14 +38,14 @@
 .hs-form input.hs-input::placeholder,
 .hs-form textarea.hs-input::placeholder {
   color: rgba(0, 0, 0, 0.55) !important;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0.55) !important;
   opacity: 1 !important;
 }
 
-.hs-form input.hs-input,
-.hs-form select.hs-input,
-.hs-form textarea.hs-input,
 .hs-form input.hs-input:focus,
-.hs-form select.hs-input:focus,
-.hs-form textarea.hs-input:focus {
+.hs-form textarea.hs-input:focus,
+.hs-form select.hs-input:focus {
   color: #000000 !important;
+  -webkit-text-fill-color: #000000 !important;
+  caret-color: #000000 !important;
 }
