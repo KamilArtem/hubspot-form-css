@@ -15,3 +15,21 @@
 .hs-form textarea::placeholder {
   color: rgba(255, 255, 255, 0.75) !important;
 }
+
+.hs-form input.hs-input,
+.hs-form input[type="text"].hs-input,
+.hs-form input[type="email"].hs-input,
+.hs-form input[type="tel"].hs-input,
+.hs-form input[type="number"].hs-input,
+.hs-form input[type="url"].hs-input,
+.hs-form textarea.hs-input,
+.hs-form select.hs-input {
+  padding: 8px !important;
+  border-radius: 1rem !important;
+  color: #000000 !important;
+}
+
+.hs-form input.hs-input::placeholder,
+.hs-form textarea.hs-input::placeholder {
+  color: rgba(0, 0, 0, 0.55) !important;
+}
