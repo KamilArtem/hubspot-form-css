@@ -1,0 +1,147 @@
+/* =========================
+   HubSpot form base styling
+   ========================= */
+
+/* Use your site font if HubSpot allows it in the iframe */
+body,
+.hs-form,
+.hs-form * {
+  font-family: inherit;
+}
+
+/* FIELD WRAPPER SPACING */
+.hs-form .hs-form-field {
+  margin-bottom: 18px !important;
+}
+
+/* LABELS */
+.hs-form .hs-form-field > label,
+.hs-form label {
+  display: block !important;
+  color: #ffffff !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  line-height: 1.2 !important;
+  margin: 0 0 8px 0 !important;
+}
+
+/* REQUIRED ASTERISK */
+.hs-form .hs-form-required {
+  color: #ffffff !important;
+  opacity: 0.8 !important;
+}
+
+/* INPUTS / SELECTS / TEXTAREAS */
+.hs-form .hs-input,
+.hs-form input[type="text"].hs-input,
+.hs-form input[type="email"].hs-input,
+.hs-form input[type="tel"].hs-input,
+.hs-form input[type="number"].hs-input,
+.hs-form select.hs-input,
+.hs-form textarea.hs-input {
+  -webkit-appearance: none;
+  appearance: none;
+  background: #ffffff !important;
+  color: #0b1b3a !important;
+  border: 1px solid rgba(255, 255, 255, 0.70) !important;
+  border-radius: 6px !important;
+  padding: 12px 14px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  outline: none !important;
+  font-size: 14px !important;
+  line-height: 1.3 !important;
+}
+
+/* TEXTAREA SIZE (like your screenshot) */
+.hs-form textarea.hs-input {
+  min-height: 160px !important;
+  resize: vertical !important;
+}
+
+/* PLACEHOLDER */
+.hs-form .hs-input::placeholder,
+.hs-form textarea.hs-input::placeholder {
+  color: rgba(11, 27, 58, 0.55) !important;
+}
+
+/* FOCUS */
+.hs-form .hs-input:focus,
+.hs-form textarea.hs-input:focus,
+.hs-form select.hs-input:focus {
+  border-color: #ffffff !important;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.22) !important;
+}
+
+/* SELECT DROPDOWN ARROW (keeps it clean) */
+.hs-form select.hs-input {
+  background-image:
+    linear-gradient(45deg, transparent 50%, rgba(11, 27, 58, 0.75) 50%),
+    linear-gradient(135deg, rgba(11, 27, 58, 0.75) 50%, transparent 50%);
+  background-position:
+    calc(100% - 18px) 50%,
+    calc(100% - 12px) 50%;
+  background-size:
+    6px 6px,
+    6px 6px;
+  background-repeat: no-repeat;
+  padding-right: 38px !important;
+}
+
+/* ERROR MESSAGES */
+.hs-form .hs-error-msgs,
+.hs-form .hs-error-msgs label,
+.hs-form .hs-error-msg {
+  color: #ffcccc !important;
+  font-size: 12px !important;
+  margin-top: 6px !important;
+}
+
+/* INVALID FIELD OUTLINE */
+.hs-form .hs-input.invalid,
+.hs-form .hs-input:invalid {
+  border-color: rgba(255, 180, 180, 0.9) !important;
+}
+
+/* SUBMIT ROW */
+.hs-form .hs-submit {
+  margin-top: 8px !important;
+}
+
+/* SUBMIT BUTTON */
+.hs-form .hs-button,
+.hs-form input[type="submit"].hs-button {
+  -webkit-appearance: none;
+  appearance: none;
+  background: #ffffff !important;
+  color: #0b1b3a !important;
+  border: 0 !important;
+  border-radius: 8px !important;
+  padding: 12px 18px !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  cursor: pointer !important;
+  transition: opacity 0.15s ease, transform 0.05s ease !important;
+}
+
+/* HOVER / ACTIVE */
+.hs-form .hs-button:hover,
+.hs-form input[type="submit"].hs-button:hover {
+  opacity: 0.92 !important;
+}
+
+.hs-form .hs-button:active,
+.hs-form input[type="submit"].hs-button:active {
+  transform: translateY(1px) !important;
+}
+
+/* OPTIONAL: reduce extra default spacing HubSpot sometimes adds */
+.hs-form .hs-form-field .input {
+  margin-right: 0 !important;
+}
+
+/* OPTIONAL: hide HubSpot default “powered by” if it appears (often not present) */
+.hs-form .legal-consent-container,
+.hs-form .hs-richtext {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
