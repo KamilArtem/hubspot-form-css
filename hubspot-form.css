@@ -11,18 +11,18 @@
   color: #ffffff !important;
 }
 
-.hs-form input.hs-input,
-.hs-form input[type="text"].hs-input,
-.hs-form input[type="email"].hs-input,
-.hs-form input[type="tel"].hs-input,
-.hs-form input[type="number"].hs-input,
-.hs-form input[type="url"].hs-input,
-.hs-form textarea.hs-input,
-.hs-form select.hs-input {
-  background-color: #ffffff !important;
+form.hs-form input,
+form.hs-form textarea,
+form.hs-form select,
+form.hs-form input.hs-input,
+form.hs-form textarea.hs-input,
+form.hs-form select.hs-input,
+form.hs-form .hs-input {
+  background: #ffffff !important;
   color: #000000 !important;
   -webkit-text-fill-color: #000000 !important;
   caret-color: #000000 !important;
+  text-shadow: none !important;
   font-size: 16px !important;
   line-height: 1.3 !important;
   padding: 14px 16px !important;
@@ -31,20 +31,26 @@
   box-sizing: border-box !important;
 }
 
-.hs-form textarea.hs-input {
+form.hs-form textarea,
+form.hs-form textarea.hs-input {
   min-height: 180px !important;
 }
 
-.hs-form input.hs-input::placeholder,
-.hs-form textarea.hs-input::placeholder {
+form.hs-form input::placeholder,
+form.hs-form textarea::placeholder,
+form.hs-form .hs-input::placeholder {
   color: rgba(0, 0, 0, 0.55) !important;
   -webkit-text-fill-color: rgba(0, 0, 0, 0.55) !important;
   opacity: 1 !important;
 }
 
-.hs-form input.hs-input:focus,
-.hs-form textarea.hs-input:focus,
-.hs-form select.hs-input:focus {
+form.hs-form input:focus,
+form.hs-form textarea:focus,
+form.hs-form select:focus,
+form.hs-form input.hs-input:focus,
+form.hs-form textarea.hs-input:focus,
+form.hs-form select.hs-input:focus,
+form.hs-form .hs-input:focus {
   color: #000000 !important;
   -webkit-text-fill-color: #000000 !important;
   caret-color: #000000 !important;
